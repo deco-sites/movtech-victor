@@ -12,7 +12,9 @@ export default {
       primary: "#2FD180",
       "primary-dark": "#003232",
       "primary-light": "#C5FFE9",
+      "gray-600": "#718096",
       transparent: "transparent",
+      
     },
     fontFamily: {
       sans: ["Albert Sans", "sans-serif"],

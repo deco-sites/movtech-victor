@@ -11,6 +11,10 @@ import * as $3 from "./routes/index.tsx";
 import * as $$0 from "./islands/LiveControls.tsx";
 import * as $$$0 from "./sections/GetStarted.tsx";
 import * as $$$1 from "./sections/Head.tsx";
+import * as $$$2 from "./sections/comoSeria.tsx";
+import * as $$$3 from "./sections/content.tsx";
+import * as $$$4 from "./sections/header.tsx";
+import * as $$$5 from "./sections/teste.tsx";
 
 const manifest: DecoManifest = {
   routes: {
@@ -20,7 +24,14 @@ const manifest: DecoManifest = {
     "./routes/index.tsx": $3,
   },
   islands: { "./islands/LiveControls.tsx": $$0 },
-  sections: { "./sections/GetStarted.tsx": $$$0, "./sections/Head.tsx": $$$1 },
+  sections: {
+    "./sections/GetStarted.tsx": $$$0,
+    "./sections/Head.tsx": $$$1,
+    "./sections/comoSeria.tsx": $$$2,
+    "./sections/content.tsx": $$$3,
+    "./sections/header.tsx": $$$4,
+    "./sections/teste.tsx": $$$5,
+  },
   functions: {},
   schemas: {
     "./sections/GetStarted.tsx": {
@@ -80,6 +91,38 @@ const manifest: DecoManifest = {
           "faviconUrl",
           "styleUrls",
           "themeColor",
+        ],
+      },
+      "outputSchema": null,
+    },
+    "./sections/comoSeria.tsx": {
+      "inputSchema": null,
+      "outputSchema": null,
+    },
+    "./sections/content.tsx": {
+      "inputSchema": null,
+      "outputSchema": null,
+    },
+    "./sections/header.tsx": {
+      "inputSchema": null,
+      "outputSchema": null,
+    },
+    "./sections/teste.tsx": {
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "text1": {
+            "type": "string",
+            "title": "Text1",
+          },
+          "text2": {
+            "type": "string",
+            "title": "Text2",
+          },
+        },
+        "required": [
+          "text1",
+          "text2",
         ],
       },
       "outputSchema": null,
